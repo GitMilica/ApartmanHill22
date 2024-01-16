@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #cfb39b;
+  font-family: Merriweather;
+}
+
+header {
+  background-color: #c47938;
+  border-bottom: 1px solid white;
+  border-top: 1px solid #c47938;
+  width: 100%;
+  padding: 10px;
+}
+
+nav img {
+  
+  float: left;
+  
+}
+
+nav {
+  float: left;
+  background-color: white;
+  width: 100%;
+  border-bottom: 1px solid white;
+  height: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: #c47938;
+  font-size: 20px;
+  margin-left: 10px;
+  padding: 15px;
+}
+
+ul {
+  padding: 10px;
+}
+
+li {
+  display: inline-block;
+  margin-left: 20px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.image-cover {
+  background-image: url(dnevna\ soba.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+ 
+}
+
+h1 {
+  position: absolute;
+  left: 400px;
+  top: 400px;
+  font-family: "Merriweather", serif;
+  letter-spacing: 2px;
+  color: #c47938;
+  border-bottom: 3px solid #c47938;
+}
+
+h2 {
+  background-color: #c47938;
+  border: 1px solid #c47938;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  width: 50%;
+  letter-spacing: 10px;
+  margin: 0 auto;
+}
+
+p,
+h3 {
+  margin: 0 auto;
+  text-align: centar;
+  width: 50%;
+  padding: 20px;
+}
+
+h3 {
+  width: 20%;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #c47938;
+  line-height: 40px;
+}
+
+p {
+  border: 2px dotted #c47938;
+  width: 40%;
+  font-size: 20px;
+  line-height: 50px;
+  color: white;
+  opacity: 0.7;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+footer {
+  text-align: center;
+  background-color: #c47938;
+  width: 100%;
+  position: relative;
+}
+
+footer li {
+  margin-left: 80px;
+  text-align: center;
+  border-bottom: 1px solid #c47938;
+  border-top: 1px solid #c47938;
+}
+
+.gallery-spa {
+  text-align: center;
+}
+
+.gallery-spa img {
+  border: 5px solid #c47938;
+  margin: 10px;
+}
+
+.gallery-apartment {
+  text-align: center;
+}
+
+.gallery-apartment img {
+  border: 5px solid #c47938;
+  margin: 10px;
+}
